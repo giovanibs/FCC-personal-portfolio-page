@@ -24,7 +24,6 @@ body {
     color: white;
     text-align: center;
     min-height: 100vh;
-    padding: 0 2rem;
 }
 
 nav {
@@ -121,7 +120,12 @@ h1 {
     color: var(--green-accent);
 }
 
+#projects {
+    background-color: var(--dark-bg);
+    padding: 0 2rem 6rem 2rem;
+}
 #projects h2 {
+    color: var(--dark-heading);
     margin-bottom: 3rem;
 }
 
@@ -138,7 +142,7 @@ h1 {
     grid-gap: 2rem;
     width: 320px;
     border: 3px solid var(--light-bg);
-    background-color: var(--dark-bg);
+    background-color: var(--very-dark-bg);
     border-radius: 1rem;
     overflow: hidden;
 }
@@ -178,7 +182,7 @@ h1 {
 }
 
 .project a {
-    background-color:var(--dark-bg);
+    background-color: var(--very-dark-bg);
     height: 100%;
     text-decoration: none;
     color: white;
