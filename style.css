@@ -131,7 +131,7 @@ h1 {
     grid-auto-flow: row;
     grid-gap: 2rem;
     width: 320px;
-    border: 2px solid var(--light-bg);
+    border: 3px solid var(--light-bg);
     background-color: var(--dark-bg);
     border-radius: 1rem;
     overflow: hidden;
@@ -163,11 +163,12 @@ h1 {
 
 .project__links {
     background-color:var(--light-bg);
-    border: 1px solid var(--light-bg);
+    border-top: 1px solid var(--light-bg);
     width: 100%;
     display: grid;
     grid-gap: 1px;
     grid-auto-flow: column;
+    grid-template-columns: repeat(2, 160px);
 }
 
 .project a {
