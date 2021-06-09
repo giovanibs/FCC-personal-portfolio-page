@@ -112,7 +112,6 @@ header:hover::before, header:hover::after {
 
 section h2 {
     font-size: 3rem;
-    padding-top: 6rem;
     margin-bottom: 1.5rem;
 }
 
@@ -127,6 +126,7 @@ h1 {
 #projects h2 {
     color: var(--dark-heading);
     margin-bottom: 3rem;
+    padding-top: 6rem;
 }
 
 .projects-wrapper {
@@ -169,6 +169,7 @@ h1 {
     font-size: 1.6rem;
     line-height: 150%;
     margin: 0 1.6rem;
+    opacity: 0.9;
 }
 
 .project__links {
@@ -185,7 +186,7 @@ h1 {
     background-color: var(--very-dark-bg);
     height: 100%;
     text-decoration: none;
-    color: white;
+    color: var(--light-heading);
     font-size: 1.6rem;
     line-height: 250%;
     font-weight: 700;
@@ -198,17 +199,25 @@ h1 {
 
 #contact {
     margin-bottom: 3rem;
+    padding-top: 3rem;
 }
 
 .contact__infos {
-    font-size: 1.6rem;
+    font-size: 2rem;
+}
+
+.contact__infos a {
+    text-decoration: none;
+    color: var(--green-accent);
+    margin: 0 2rem;
 }
 
 footer {
-    color: white;
+    color: var(--light-heading);
     font-size: 1.4rem;
     line-height: 150%;
     margin-bottom: 2rem;
+    opacity: 0.8;
 }
 
 footer a {
