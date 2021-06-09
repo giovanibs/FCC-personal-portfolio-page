@@ -214,13 +214,11 @@ footer a {
     .projects-wrapper {
         grid-template-columns: repeat(2, 320px);
     }
-
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
 
     .projects-wrapper {
         grid-template-columns: repeat(3, 320px);
     }
-
 }
